@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<!-- Website SVG From https://www.svgrepo.com/svg/209654/cpu-chip -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seyma Basturk - Engineering Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700&family=Patua+One&display=swap" rel="stylesheet"> 
+
+    <!-- Website Title Icon -->
+    <link rel="shortcut icon" href="img/cpu.png" type="image/x-icon">
+</head>
+
+<body id="cs" class="bg-light d-flex flex-column h-100">
+
+    <!-- NavBar -->
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    
+        <div class="container">
+            <a class="navbar-brand my-auto" href="index.html">
+                <img id="home" class="d-inline-block align-text-bottom" src="/img/logotrans.png" alt="CPU Chip Logo" width="50"
+                    viewBox="0 0 100 100">
+                <h2 class="d-inline-block mx-2 mb-0">Seyma Basturk</h2>
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav nav-tabs navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="cs.html">Engineering</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="other.html">Other</a></li>
+                        </ul>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="edu.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <!-- Image of Computer Screen with Code from https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg -->
+    <div id="hero" class="p-5 mb-4 bg-dark text-light">
+        <div class="container py-5">
+            <h1 class="display-5">Electrical Engineering</h1>
+            <p class="col-md-8 fs-4">“Engineering, electrical and mechanical, is positive in results. There is scarcely a subject that cannot be mathematically treated and the effects calculated or the results determined beforehand from the available theoretical and practical data. The carrying out into practise of a crude idea as is being generally done is, I hold, nothing but a waste of energy, money and time.” - Nikola Tesla </p>
+        </div>
+    </div>
+
+    <!-- Project Cards -->
+    <div class="container mb-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <!-- Image of CPU from https://cdn-learn.adafruit.com/guides/images/000/001/956/medium800/mac-logic.JPG -->
+                <a href="https://github.com/nmierfin/EG4912_Project" title="Watch the Dev Logs" role="button">
+                <img src="/img/Eye_Tracking.jpg" class="card-img-top" alt="Eye tracking software main screen">
+                <div class="card-body">
+                  <h5 class="card-title">Facial Landmark Detection for Non-Verbal Individuals</h5>
+                  <p class="card-text">Utilized C++ and OpenCV to design a facial landmark detection system for patients suffering from complete paralysis to help them communicate. I have designed a virtual keyboard and merged it with the detection code to implement a clicking capability using winks and eyebrow movement. In order to enable fast communication I have used SQL to create a database, storing the relative frequency of the words used. The system was further improved using cascaded neural networks for accuracy.</p>
+                </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="https://github.com/jarvisbast/MicrowaveAmplifier" title="Watch the Dev Log" role="button">
+                <!-- Image of Scrum Flow Diagram from https://kruschecompany.com/wp-content/uploads/2021/09/Agile-software-development-with-Scrum-blog-cover-image-1280x595.jpg -->
+                <img src="/img/microwave amplifier.jpg" class="card-img-top" alt="Microwave Amplifier Circuit">
+                <div class="card-body">
+                  <h5 class="card-title">Microwave Amplifier Design</h5>
+                  <p class="card-text">I have designed, simulated, built, and tested a microwave amplifier at 3.1 GHz frequency in a 50Ω system. To design the circuit, NI-AWR Microwave Office was utilized. In order to achieve an efficient microwave amplifier I have used an npn type BJT, AT-41486, fabricated by Hewlett-Packard with microstrip transmission lines. The input and output matching networks were designed using open circuited shunt stubs since they can be easily fabricated and allow some tuning. I have calculated the maximum gain of the BJT from the given S parameters in the data sheet, ensured that the amplifier is stable over the entire useful bandwidth of the device, minimized S11 and S22, and maximized the bandwidth. The circuit was then fabricated with RT/Duroid 5880 with a dielectric thickness of 787.41µm. In the final step, I assembled and mounted the circuit on the microwave test jig and tested it with a VNA.</p>
+                </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="https://github.com/jarvisbast/LinearAntennaArray" title="Watch the Dev Log" role="button">
+                <!-- Image of Scrum Flow Diagram from https://kruschecompany.com/wp-content/uploads/2021/09/Agile-software-development-with-Scrum-blog-cover-image-1280x595.jpg -->
+                <img src="/img/array antenna.jpg" class="card-img-top" alt="4 Element Linear Antenna Array">
+                <div class="card-body">
+                  <h5 class="card-title">4 Element Microstrip Patch Linear Antenna Array</h5>
+                  <p class="card-text">Utilized NI-AWR Microwave Office to design a microstrip patch antenna element and implemented a 4 element linear array with 5.2GHz frequency. The substrate used in the design is RT/Duroid 5880 with a dielectric thickness of 1.574mm. I have calculated, simulated, and measured the electric field in various planes of polarization and the S parameters. I maximized the input return loss at port 1 of the feed network to ensure that the power from the generator will enter the feed network and be available to the antenna patches. In addition to that I made sure that the array design was matched to 50 Ω with zero reactance, zero reflection, and full transmission.</p>
+                </div>
+                </a>
+              </div>
+            </div>
+            <!--<div class="col">
+              <div class="card">
+                <!-- Image of React Logo from https://miro.medium.com/max/1050/1*i3hzpSEiEEMTuWIYviYweQ.png -->
+                <!-- <a href="https://github.com/nmierfin/PowerWorld_Simulation/blob/main/Power_Tranmission_System.pdf" title="Watch the Dev Log" role="button">-->
+                <img src="/img/pcb_design.png" class="card-img-top" alt="PCB layout image">
+                <div class="card-body">
+                  <h5 class="card-title">PCB Design for Motor Control System</h5>
+                  <p class="card-text">Utilized Altium to design 4 layers PCB layout for the brushless DC motor driver board for an electric vehicle. Completed calculations and design simulations to assess power needs and choose optimal components for the circuit. Developed applications and modifications for electronic properties used in components, products, or systems to improve techinical performance. </p>
+                </div>
+                </a>
+              </div>
+            </div> -->
+            <div class="col">
+              <div class="card">
+                <!-- Image of Scrum Flow Diagram from https://kruschecompany.com/wp-content/uploads/2021/09/Agile-software-development-with-Scrum-blog-cover-image-1280x595.jpg -->
+                <img src="/img/CMOS layout.jpg" class="card-img-top" alt="4 Element Linear Antenna Array">
+                <div class="card-body">
+                  <h5 class="card-title">CMOS Circuit Design</h5>
+                  <p class="card-text">I utilized cadence to design basic inverters and NAND gates of unit size in a 60nm processes technology. This involved designing the overall schematic and then finally layout on the chip. The chip layout was verified to comply with various process technology requirements through the passing of DRC and LVS tests.</p>
+                </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="https://github.com/jarvisbast/WindFarmDistributionSystem" title="Watch the Dev Log" role="button"></a>
+                <!-- Image of REST API Diagram from https://www.astera.com/wp-content/uploads/2020/01/rest.png -->
+                <img src="/img/PowerWorldSimulation.png" class="card-img-top" alt="PowerWorld simulation picture">
+                <div class="card-body">
+                  <h5 class="card-title"> Wind Farm and Distribution System Design</h5>
+                  <p class="card-text"> I designed a simulated utility-scale 500MW wind power plant that delivers power to the city of Ottawa via a transmission line system using PowerWorld Simulator. I have sized the wind turbines, the cables, and the transformers for stepping up and down voltage. In order to build the transmission line I have utilized the ABCD network representation. Finally, to protect the system against faults and lightning effects, I have designed switchgear including capacitor banks, surge arrestors, circuit breakers, isolators, lightning arresters, earth switches, protection relays, and SCADA systems.  </p>
+                </div>
+              </div>
+            </div>
+              <div class="col">
+                <div class="card">
+                  <a href="https://github.com/jarvisbast/SmartSolarInverterSystem_EVChargerDesign" title="Watch the Dev Log" role="button"></a>
+                  <!-- Image of Scrum Flow Diagram from https://kruschecompany.com/wp-content/uploads/2021/09/Agile-software-development-with-Scrum-blog-cover-image-1280x595.jpg -->
+                  <img src="/img/Smart_Solar_Inverter_Design.png" class="card-img-top" alt="smart solar inverter design">
+                  <div class="card-body">
+                    <h5 class="card-title">Smart Solar Inverter System and EV Charger Design</h5>
+                    <p class="card-text">Designed a grid-tie solar inverter with 5kW rated output DC power to 120V AC with an electric vehicle charging capability. This charging system was adjustable for different battery bank sizes and types and can charge Lead Acid and Li-ion batteries. In addition to that I designed a smart inverter suitable for solar panels with built-in high-performance maximum power point tracking (MPPT) function to effectively capture and collect sunlight. I had to size the solar panels  and determine the way of their connection to produce 5kW.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <!-- Image of Scrum Flow Diagram from https://kruschecompany.com/wp-content/uploads/2021/09/Agile-software-development-with-Scrum-blog-cover-image-1280x595.jpg -->
+                  <img src="/img/Robot_Bowie.png" class="card-img-top" alt="autonomous robot image">
+                  <div class="card-body">
+                    <h5 class="card-title">Enhanced Autonomous Robot</h5>
+                    <p class="card-text">I worked with Erin Kennedy (the client) to address her needs to improve the robot, "Bowie", under the categories of efficiency, environmental concerns, safety/security, and communal engagement. I have designed and developed a hopper with filters on the side and a slanted base with vibrators attached to it for the purpose of removing sand when the robot scoops. To design the hopper I have utilized Autodesk Fusion 360. Coded a program that calculates the exact dimensions of the hopper to compensate for the angle of the slanted base.   </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <a href="https://github.com/jarvisbast/HomeAlarmSystemHCS12" title="Watch the Dev Log" role="button">
+                  <!-- Image of Scrum Flow Diagram from https://kruschecompany.com/wp-content/uploads/2021/09/Agile-software-development-with-Scrum-blog-cover-image-1280x595.jpg -->
+                  <img src="/img/HCS12 Board.png" class="card-img-top" alt="Motorola HCS12">
+                  <div class="card-body">
+                    <h5 class="card-title">Home Alarm System</h5>
+                    <p class="card-text">I coded a home alarm system in C that utilized the Freescale/Motorola HCS12. The program involved arming the system using a keypad. When the system is armed by typing in the passcode the alarm can be tripped by tripping a sensor. This will activate an interupt that causes an alarm to sound. The alarm can be disarmed by typing in the same passcode. It also utilized a 7 segment display that showed the passcode when typed.</p>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+        
+    
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-center">
+          <span class="text-white">Created by Antonio LaPlaca and licensed to and modified by Seyma Basturk with <a class="text-white" href="https://getbootstrap.com">Bootstrap</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

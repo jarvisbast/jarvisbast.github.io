@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<!-- Website SVG From https://www.svgrepo.com/svg/209654/cpu-chip -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seyma Basturk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700&family=Patua+One&display=swap" rel="stylesheet"> 
+
+    <!-- Website Title Icon -->
+    <link rel="shortcut icon" href="img/cpu.png" type="image/x-icon">
+</head>
+
+<body id="edu" class="bg-light d-flex flex-column h-100">
+
+    <!-- NavBar -->
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    
+        <div class="container">
+            <a class="navbar-brand my-auto" href="index.html">
+                <img id="home" class="d-inline-block align-text-bottom" src="/img/logotrans.png" alt="CPU Chip Logo" width="50"
+                    viewBox="0 0 100 100">
+                <h2 class="d-inline-block mx-2 mb-0">Seyma Basturk</h2>
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav nav-tabs navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cs.html">Engineering</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="other.html">Other</a></li>
+                        </ul>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>-->
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="edu.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <!-- Image of University of Toronto Campus from https://www.toronto.ca/wp-content/uploads/2017/07/96d1-University-College.png -->
+    <div id="hero" class="p-5 mb-4 bg-dark text-light">
+        <div class="container py-5">
+            <h1 class="display-5">University of Ottawa - Honours Bachelor of Applied Science (HBASc)</h1>
+            <p class="col-md-8 fs-4">Here you will find the courses that are most applicable to my field of work and degree, organized by program, that I've taken throughout my many years studying at the University of Ottawa.
+            </p>
+        </div>
+    </div>
+
+    <!-- Scrollspy for Courses and Programs -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                    <a class="navbar-brand" href="#">University of Ottawa HBASc</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link" href="#ENG">Engineering</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#CSC263">CSC263</a>
+                            <a class="nav-link ms-3 my-1" href="#CSC258">CSC258</a>
+                            <a class="nav-link ms-3 my-1" href="#CSC209">CSC209</a>
+                            <a class="nav-link ms-3 my-1" href="#CSC236">CSC236</a>
+                            <a class="nav-link ms-3 my-1" href="#CSC207">CSC207</a>
+                            <a class="nav-link ms-3 my-1" href="#CSC148">CSC148</a>
+                        </nav> -->
+                        <a class="nav-link" href="#MAT">Math</a>
+                        <!-- <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#GGR325">GGR325</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR337">GGR337</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR321">GGR321</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR376">GGR376</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR335">GGR335</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR278">GGR278</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR276">GGR276</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR272">GGR272</a>
+                            <a class="nav-link ms-3 my-1" href="#GGR209">GGR209</a>
+                        </nav> -->
+                    </nav>
+                </nav>
+            </div>
+            <div class="col-12">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+                    <h4 id="ENG">Engineering</h4>
+                    <p></p>
+                    <h5 id="ELG4118">ELG 4118 - Wave Propagation and Antennas</h5>
+                    <p>Review of Maxwell's equations, Poynting's theorem and boundary conditions. Plane waves at an interface. Rectangular and circular metallic waveguides. Resonant cavities. The equivalent circuit description of discontinuities and junctions in waveguiding structures. Antenna fundamentals. Radiation integrals. Dipole and loop antennas. Microstrip antennas. Source equivalence principles. Aperture antennas. Reflector antennas. Array antennas. Antenna measurements. Use of computational electromagnetics in antenna analysis & design.</p>
+
+                    <h5 id="ELG4137">ELG 4137 - Principles and Applications of VLSI Design</h5>
+                    <p>Introduction to VLSI technology. Electrical properties of NMOS and CMOS transistors. NMOS subsystem design and layout. Subsystem design and layout using simple static, complex static, and dynamic domino CMOS logic circuits. Designs of NMOS and CMOS PLA, finite state machines and memory systems. System designs using BiCMOS technology, GaAs technology, gate arrays and Field-Programmable Gate Arrays.</p>
+
+                    <h5 id="ELG4115">ELG 4115 - Microwave Circuits</h5>
+                    <p>Review of transmission line theory and the Smith Chart. Microstrip transmission lines. Network parameter description of microwave circuits (S, Z,Y, ABCD parameters). Impedance transformation and matching networks. Stability, gain and noise considerations. Microwave amplifier and oscillator design. Passive 2, 3, and 4 port microwave networks. Attenuators, couplers, power dividers, circulators, isolators. Computer-aided design of microwave circuits.</p>
+
+                    <h5 id="ELG4177">ELG 4177 - Digital Signal Processing</h5>
+                    <p>Review of discrete-time signals and systems, the sampling theorem, and Fourier series/transforms. Sampling rate conversions. A/D and D/A conversions. Z-transform and LTI system analysis. Minimal, maximal and mixed phase systems. Discrete Fourier Transform and Fast Fourier Transform (FFT). Windowing effects. Finite Impulse Response (FIR) filter design (linear phase, windowing, frequency sampling, Remez). Infinite Impulse Response (IIR) filter design from analog prototypes. Frequency transformations. Structures for implementation: direct, cascade, lattice, lattice-ladder, parallel. Finite word length effects. Introduction to spectral analysis. Real time implementation.</p>
+
+                    <h5 id="ELG4117">ELG 4117 - Optoelectronics and Optical Components</h5>
+                    <p>Wave-Particle duality of light. Interaction of light with matter. Review of semiconductor physics and introduction to optoelectronics. Gener ation of optical energy: light emitting diodes and lasers. Detection of optical energy: photoconductors, PIN and avalanche photodiodes. Introduction to electro-optics. Control of optical radiation: modulation and switching of light.</p>
+
+                    <h5 id="ELG4125">ELG 4125 - Electric Power Transmission, Distribution and Utilization</h5>
+                    <p>Energy resources and electric power generation, transmission and distribution; simple generator models, transformers, transmission lines. Power system analysis: per unit representation, real and reactive power flow, VAR compensation, fault analysis and protection. Power system control. Power system stability. Load representation, power quality. Computational modelling of typical power system problems.</p>
+
+                    <h5 id="ELG4139">ELG 4139 - Electronics III</h5>
+                    <p>Design, applications, and physical limitations of operational amplifiers: filters, amplifiers, oscillators, comparators, timing circuits, and ADC/DAC circuits. Application of electronics to energy conversion and control: analysis, performance, characterization, and design of power electronic devices including power amplifiers, transistor switches, and converters using diodes, thyristors, and controllable semiconductor switches. MEMS/NEMS-based sensors and actuators: design, analysis, modeling, fabrication, and applications</p>
+
+                    <h5 id="ELG4176">ELG 4176 - Communication Systems </h5>
+                    <p>Review of random signals and system concepts, and modulation and detection. Basic antenna equations. SNR link calculations. Analysis of linear modulation in the presence of noise. Analysis of angle modulation in the presence of noise. The threshold effect, threshold extension, and preemphasis and deemphasis in angle modulation. Digital modulation techniques. Detection principles for digital communication signals in noise: matched filter receivers, signal space concepts, maximum a posteriori receivers, maximum likelihood receivers. Partial response signalling. Channel coding. Coherent and noncoherent detection. Maximum likelihood sequence estimation receivers for modulation with memory and the Viterbi algorithm. Channel capacity.</p>
+
+                    <h5 id="ELG3126">ELG 3126 - Random Signals and Systems</h5>
+                    <p>Probabilistic models, conditional probability and Bayes' rule; vectors of random variables, distributions and density functions, expectations and characteristic functions. Independence, Laws of Large Numbers, Central-Limit Theorem. Random process concepts. Random signal analysis concepts. Applications drawn from power systems, analog and digital circuits, communication systems and manufacturing.</p>
+
+                    <h5 id="ELG3137">ELG 3137 - Fundamentals of Semiconductor Devices </h5>
+                    <p>Modern solid-state electronic devices, their principles of operation, and fabrication. Solid state physics fundamentals, free electrons, band structure, and transport properties of semiconductors. Nonequilibrium phenomena in semiconductors. p-n junctions, Schottky diodes, bipolar and field-effect transistors. Modern, high-performance devices. Ultrafast devices.</p>
+
+                    <h5 id="ELG3155">ELG 3155 - Introduction to Control Systems </h5>
+                    <p>Introduction to control systems, dynamic systems modeling. Laplace transforms, partial fraction methods. Block diagram and signal flow graph models, transfer functions of linear systems. Introduction to state-space models. Feedback control system characteristics, stability and Routh-Hurwitz criteria, the root locus method, design of industrial controllers, the Nyquist stability criterion, Bode plots, design indexes, lead and lag controllers.</p>
+
+                    <h5 id="ELG3175">ELG 3175 - Introduction to Communication Systems </h5>
+                    <p>Review of linear systems, the sampling theorem, and Fourier analysis. Noiseless analysis of the linear modulation schemes: double sideband, inphase-quadrature, single sideband, vestigial sideband and conventional AM. Superheterodyne receivers. Angle modulation: phase modulation, and frequency modulation. Carson's rule. Discriminator and phase-locked loop detection of FM. Basic digital modulation techniques: ASK, PSK, FSK. Bandwidth requirements of PAM (Nyquist's criterion). Pulse code modulation and companding. Introduction to error control coding and to information theory.</p>
+
+                    <h5 id="ELG3316">ELG 3316 - Electric Machines and Power Systems </h5>
+                    <p>Machinery principles. Three-phase systems, transformers. AC machinery fundamentals, synchronous generators, synchronous motors, induction motors. DC machinery fundamentals, dc motors and generators, special-purpose motors, single-phase induction motors.</p>
+
+                    <h5 id="CEG3136">CEG 3136 - Computer Architecture II </h5>
+                    <p>Microprocessors and their general architecture. CISC and RISC architectures. Microcontrollers. Embedded systems. Designing computers using microprocessors. Introduction to computer hardware software codesign.</p>
+
+                    <h5 id="ELEC3909">ELEC 3909 - Electromagnetic Waves </h5>
+                    <p>Maxwell's equations and EM wave solutions. Polarization. Poyntingvector. EM waves in dielectrics and conductors; skin depth. Reflection and refraction. Standing waves. Fresnel relations, Brewster angle. Transmission lines. Line termination, basic impedance matching and transformation. Smith charts. Introduction to guided waves; slab waveguide.</p>
+
+                    <h5 id="ELG3125">ELG 3125 - Signal and System Analysis </h5>
+                    <p>Continuous-time and discrete-time signals. Mathematical description of systems. Properties of systems. Convolution and impulse response of continuous and discrete time LTI systems. Fourier series of periodic continuous and discrete time signals. Decomposition and approximation of signals by orthogonal functions. The Fourier transform of continuous and discrete time signals. Frequency response of systems. Frequency selective filtering. First and second order systems. Sampling and interpolation of continuous-time signals. LTI system analysis with Laplace transforms.</p>
+
+                    <h5 id="ELG3136">ELG 3136 - Electronics II </h5>
+                    <p>Differential Amplifiers: BJT, MOS. Multistage Amplifiers: Frequency Response: s-Domain analysis, amplifier transfer function, frequency response of CS, CE, CB, cascode, CC and cascaded amplifiers. Feedback: general feedback structure and basic feedback topologies. Stability, frequency compensation Output Stages and Power Amplifiers: Class A, B and AB output stages. IC and MOS power amplifiers.</p>
+
+                    <h5 id="ELG2138">ELG 2138 - Circuit Theory I </h5>
+                    <p>DC and sinusoidal steady state (AC) analysis of circuits. Basic passive circuit elements (resistors, capacitors, inductors). Voltage and current sources. Kirchoff laws. Loop and nodal analysis. Circuit theorems: Superposition, Maximum power transfer, Thevenin, Norton. Forced and natural responses of RL and RC circuits using the differential equation approach. Sinusoidal signals, complex numbers, phasors and impedance concepts. Average and RMS quantities. Steady state time-domain behaviour of inductors and capacitors. Complex, average and apparent power. Introduction to the use of electrical measurement equipment such as voltmeters, ammeters, wattmeters, function generators and oscilloscopes. Voltage, current and impedance measurement.</p>
+
+                    <h5 id="ELG2137">ELG 2137 - Circuit Theory II </h5>
+                    <p>Ideal operational amplifiers - analysis and applications. Forced and natural responses of RLC circuits using the differential equation approach. Transient circuit analysis using unilateral Laplace transforms. Two-port networks and parameters. Mutual inductance and the ideal transformer. Transfer functions. Frequency response of simple filters. Fundamentals of computer-aided circuit simulation. The measurement of sinusoidal and non-sinusoidal electrical quantities in analogue and digital circuits. Introduction to sensors and instrumentation amplifiers. The measurement of non-electrical quantities.</p>
+
+                    <h5 id="ELG2136">ELG 2136  - Electronics I</h5>
+                    <p>Physics of semiconductors. Diodes: operation, models. and application circuits. Bipolar Junction Transistors - operation and characteristics. DC and AC circuit models. Basic single-stage BJT amplifier configurations. Field-Effect Transistors: Structure and physical operation, bias circuits, small-signal equivalent circuits and basic amplifiers. Basic concepts of digital logic circuits. The BJT inverter. The CMOS Inverter. Propagation delay of the CMOS inverter. CMOS gates and other digital circuits. Introduction to Semiconductor Power Devices: thyristor, triac, Insulated Gate Bipolar transistor. Power Electronics Applications: The AC-DC, DC-DC, and DC-AC converters.</p>
+
+                    <h5 id="CEG2136">CEG 2136  - Computer Architecture I</h5>
+                    <p>Design a digital computer to execute a given instruction set. Design of digital computers. Register transfer and microoperations. Designing the instruction set, CPU and CPU control. Basic machine language programming. Using pipelines for CPU design. Designing the memory unit. Designing Imput-Output subsystem.</p>
+
+                    <h5 id="ELG2911">ELG 2911  - Professional Practice in Information Technology and Engineering </h5>
+                    <p>History of the profession of engineering. Principles of professional engineering practice. Ethical, societal, environmental and legal obligations of the professional engineer. Communication and management skills required by the practicing engineer. Workplace health and safety.</p>
+
+                    <h5 id="PHY2323">PHY 2323  - Electricity and Magnetism</h5>
+                    <p>Review of vector analysis: gradient, divergence and curl. Electrosta- tics: Coulomb's law, electric field, Gauss's law, energy and potential, conductors, semiconductors and dielectrics, capacitance, Poisson's and Laplace's equations. Steady electric currents. Magnetostatics: magnetic fields and forces, Ampere's and Biot-Savart laws, Maxwell's equations, electromagnetic potentials.</p>
+
+                    <h5 id="PHI2394">PHI 2394  - Scientific Thought and Social Values</h5>
+                    <p>The nature of scientific thought and the relationships between science, culture, religion, politics, technology and society at large.</p>
+                    
+                    <h5 id="ENG1112">ENG 1112  - Technical Report Writing</h5>
+                    <p>Practice in the writing of technical reports. Topics include exposition, argumentation, presentation of technical data, and effective communication. Frequent written exercises and development of composition skills. Use of Writing Centre resources required outside regular class hours.</p>
+
+                    <h5 id="GNG1105">GNG 1105  - Engineering Mechanics</h5>
+                    <p>Concepts of engineering mechanics. Statics of particles and rigid bodies. Free body diagrams. Simple structures, including trusses, frames and machines. Rectilinear and curvilinear motion.</p>
+
+                    <h5 id="CHM1311">CHM 1311  - Principles of Chemistry</h5>
+                    <p>Chemical bonding, molecular geometry, chemical equations and quantitative relations, gas, liquids and solids, solutions, redox reactions, electrochemistry, kinetics and equilibrium, ionic equilibria, acids and bases in solution, pH.</p>
+
+                    <h5 id="GNG1106">GNG 1106  - Fundamentals of Engineering Computation</h5>
+                    <p>Introduction to computer systems. Problem solving for engineering case studies. Emphasis is on the design of algorithms and their implementation for solving engineering problems using C. Introduction to Visual Basic.</p>
+
+                    <h5 id="GNG1103">GNG 1103  - Engineering Design</h5>
+                    <p>A hands-on, team-based introduction to engineering design for engineers and computer scientists. Topics include design thinking, engineering design process, prototyping, engineering economics, safety, ethics and project management.</p>
+
+                    <h5 id="ITI1100">ITI 1100  - Digital Systems I</h5>
+                    <p>Digital computers and information. Number systems and alphanumeric codes. Binary arithmetic. Boolean algebra. Logic functions representation, minimization and realization. Analysis, design and implementation of combinational circuits. Basic sequential circuits. Latches and flip-flops. Analysis and design of simple sequential circuits. Registers and counters. Implementation of digital circuits.</p>
+
+                    <h5 id="PHY1124">PHY 1124  - Fundamentals of Physics for Engineers</h5>
+                    <p>Review of kinematics, reference frames and relative motion. Newton's laws of motion, forces, and fields. Work, energy and power. Oscillator motion. Electrostatics and Gauss' law. Magnetic fields and forces. Introduction to special relativity.</p>
+
+                    <h5 id="ECO1192">ECO 1192  - Engineering Economics</h5>
+                    <p>The scope of engineering economics; mesoeconomics supply, demand, production; break-even analysis; economizing and comparing mathematics of money: time value mechanics; equivalent annual - worth comparison method; present worth comparisons; management of money: date and sensitivity analysis, industrial practices; analysis of public projects, economic analysis recognizing risk.</p>
+
+                    
+                    <h4 id="MAT">Math</h4>
+                    <p></p>
+                    <h5 id="MAT2384">MAT 2384 - Ordinary Differential Equations and Numerical Methods </h5>
+                    <p>General concepts. First order equations. Linear differential equations of higher order. Differential operators. Laplace transforms. Systems of differential equations. Series solutions about ordinary points. Numerical methods including error analysis; numerical differentiation, integration and solutions of differential equations.</p>
+
+                    <h5 id="MAT2322">MAT 2322 - Calculus III for Engineers </h5>
+                    <p>Extrema of functions of several variables. Multiple integration and applications. Vector fields and their derivatives. Curves. Vector differential operators. Line integrals. Surfaces and surface integrals. Theorems of Stokes, Gauss, etc.</p>
+
+                    <h5 id="MAT1322">MAT 1322 - Calculus II</h5>
+                    <p>Improper integrals. Applications of the integral. Separable differential equations. Euler's method for differential equations. Sequences, series. Taylor's formula and series. Functions of two and three variables. Partial derivatives, the chain rule, directional derivatives, tangent planes and normal lines.</p>
+
+                    <h5 id="MAT1320">MAT 1320 - Calculus I</h5>
+                    <p>Intuitive definition of limits; continuity, statement of intermediate value theorem. Quick review of basic derivative formulas: products, chain rule, exponentials, and trigonometric functions. Derivatives of quotients, logarithms, inverse trigonometric functions. Finite difference approximations of derivatives. Analysis of functions via the first and the second derivatives; statements of extreme and mean value theorems. L'Hospital's rule. Implicit differentiation, related rates, optimization, linear approximation, Newton s method. The definite integral and the fundamental theorem of calculus. Antiderivatives of elementary functions, techniques of integration (integration by parts, substitutions, partial fractions). Numerical integration: mid-point, trapezoidal rule and Simpson's rule; error analysis.</p>
+
+                    <h5 id="MAT1341">MAT 1341 - Introduction to Linear Algebra</h5>
+                    <p>Review of complex numbers. The fundamental theorem of algebra. Review of vector and scalar products, projections. Introduction to vector spaces, linear independence, bases; function spaces. Solution of systems of linear equations, matrix algebra, determinants, eigenvalues and eigenvectors. Gram Schmidt, orthogonal projections. Linear transformations, kernel and image, their standard matrices. Applications (e.g. geometry, networks, differential equations).</p>
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-center">
+            <span class="text-white">Created by Antonio LaPlaca and licensed to and modified by Seyma Basturk with <a class="text-white" href="https://getbootstrap.com">Bootstrap</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
